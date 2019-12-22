@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     ViewPager vpMain;
 
     private int[] imageList;
-    private List<Fragment> fragmentList = new ArrayList<>();
+    private final List<Fragment> fragmentList = new ArrayList<>();
 
     private void initImageList(){
         TypedArray imageString = getResources().obtainTypedArray(R.array.imageList);
