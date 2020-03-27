@@ -1,4 +1,4 @@
-package com.haanhgs.app.viewpagerfragmentdemo;
+package com.haanhgs.app.pagerfragment;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
